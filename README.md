@@ -1,12 +1,14 @@
 # Barbone Typescript Express Starter
 Useful for any backend nodejs project written in typescript.
 
-### Tech
+### Tech & Features
 - typescript
 - tslint
 - jest (tests written in typescript through ts-jest)
 - fast development with ts-node and nodemon
-- example express hello world endpoint
+- express.js example
+- debugging with vsc
+- configuration through .env (run "cp .env.example .env")
 
 ### Usage
 Install:
@@ -20,14 +22,17 @@ yarn start
 yarn start:dev
 yarn start:dev:watch
 ```
+
 Build:
 ```sh
 yarn build
 ```
+
 Clean:
 ```sh
 yarn clean
 ```
+
 Test:
 ```sh
 yarn test
